@@ -6,7 +6,10 @@ import Store from "scripts/redux/store";
 // Import container.
 import App from "scripts/redux/containers/app";
 
-// Import stylesheets.
+// Import bootstrap.
+import "bootstrap/dist/css/bootstrap.min.css";
+
+// Import custom stylesheets.
 import "stylesheets/entries/app.scss";
 
 Inferno.render(

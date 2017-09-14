@@ -26,7 +26,9 @@ class App extends Component<any, any> {
                 <h1>{ this.state.data }</h1>
                 <h2>{ `User Name: ${ this.props.user.name }` }</h2>
                 <h2>{ `User Age: ${ this.props.user.age }` }</h2>
-                <button onclick={ (e) => { this.handleBtnClicked(e) } }>SET AGE</button>
+                <button 
+                    className="btn btn-primary" 
+                    onclick={ (e) => { this.handleBtnClicked(e) } }>SET AGE</button>
             </div>
         )
     }

@@ -13,7 +13,6 @@ var config = Object.keys(entries).map(function(entry) {
 	
 		output: {
 			path: __dirname + "/client/public/dist",
-			publicPath: "/client/public/dist",
 			filename: entry + "-bundle.min.js"
 		},
 	
@@ -74,12 +73,6 @@ var config = Object.keys(entries).map(function(entry) {
 				}
 			]
         },
-        
-		devServer: {
-			contentBase: __dirname + "/client/public/dist",
-			inline: true,
-			port: 8080
-		},
 	
 		plugins: [
 			new webpack.optimize.UglifyJsPlugin({
