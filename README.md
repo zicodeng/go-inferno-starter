@@ -1,7 +1,9 @@
-# Midas
+# Go Inferno Starter
 
-## What is Midas?
+This repo contains starter code for any web application.
 
-## Why bother creating it?
+It includes basic set-up for:
 
-## Installation
+* front-end: inferno, redux, sass, webpack
+
+* back-end: Golang
